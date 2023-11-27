@@ -1,0 +1,5 @@
+The ".py" files are the network models implemented in PYTHON.
+
+The ".mat" files are the trained parameters.
+
+The ".m" files are the corresponding ADMM-based JCDD algorithms implemented in MATLAB, where we can readily load the parameters optimized via offline training.

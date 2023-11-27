@@ -1,0 +1,3 @@
+In these baselines, we adopt the library LDPC decoding function of MATLAB, i.e., "hDec = comm.LDPCDecoder(ldpcPropertyValuePairs{:})", for a fast simulation.  However, it is implemented in C, while others are all implemented in MATLAB. 
+
+Therefore, for fariness of latency comparison, we should change the decoding function into the one implemented by MATLAB, i.e., "ldpc_decode_SPA", which is also provided in the folder named "Functions" for your convenience.
